@@ -1,0 +1,229 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Love Yourself: Tear",
+      "artist": "BTS",
+      "img":"",
+      "price": 3500,
+      "stock": 10,
+      "company": "Big Hit Entertainment"
+    },
+    {
+      "id": 2,
+      "title": "The Album",
+      "artist": "BLACKPINK",
+      "img":"",
+      "price": 3000,
+      "stock": 8,
+      "company": "YG Entertainment"
+    },
+    {
+      "id": 3,
+      "title": "Map of the Soul: 7",
+      "artist": "BTS",
+      "img":"",
+      "price": 3800,
+      "stock": 5,
+      "company": "Big Hit Entertainment"
+    },
+    {
+      "id": 4,
+      "title": "Dye",
+      "artist": "GOT7",
+      "img":"",
+      "price": 3200,
+      "stock": 12,
+      "company": "JYP Entertainment"
+    },
+    {
+      "id": 5,
+      "title": "The War",
+      "artist": "EXO",
+      "img":"",
+      "price": 4000,
+      "stock": 7,
+      "company": "SM Entertainment"
+    },
+    {
+      "id": 6,
+      "title": "Fever Season",
+      "artist": "GFRIEND",
+      "img":"",
+      "price": 2800,
+      "stock": 15,
+      "company": "Source Music"
+    },
+    {
+      "id": 7,
+      "title": "HYYH Pt. 1",
+      "artist": "BTS",
+      "img":"",
+      "price": 3500,
+      "stock": 6,
+      "company": "Big Hit Entertainment"
+    },
+    {
+      "id": 8,
+      "title": "The Red",
+      "artist": "Red Velvet",
+      "img":"",
+      "price": 3200,
+      "stock": 4,
+      "company": "SM Entertainment"
+    },
+    {
+      "id": 9,
+      "title": "X X",
+      "artist": "LOONA",
+      "img":"",
+      "price": 2800,
+      "stock": 9,
+      "company": "Blockberry Creative"
+    },
+    {
+      "id": 11,
+      "title": "Feel Special",
+      "artist": "TWICE",
+      "img":"",
+      "price": 3200,
+      "stock": 6,
+      "company": "JYP Entertainment"
+    },
+    {
+      "id": 12,
+      "title": "Square Up",
+      "artist": "BLACKPINK",
+      "img":"",
+      "price": 3500,
+      "stock": 8,
+      "company": "YG Entertainment"
+    },
+    {
+      "id": 13,
+      "title": "Take.2 We Are Here",
+      "artist": "MONSTA X",
+      "img":"",
+      "price": 3000,
+      "stock": 5,
+      "company": "Starship Entertainment"
+    },
+    {
+      "id": 14,
+      "title": "The Perfect Red Velvet",
+      "artist": "Red Velvet",
+      "img":"",
+      "price": 3200,
+      "stock": 7,
+      "company": "SM Entertainment"
+    },
+    {
+      "id": 16,
+      "title": "The Clan Pt. 2 Guilty",
+      "artist": "MONSTA X",
+      "img":"",
+      "price": 3000,
+      "stock": 9,
+      "company": "Starship Entertainment"
+    },
+    {
+      "id": 17,
+      "title": "Love Shot",
+      "artist": "EXO",
+      "img":"",
+      "price": 4000,
+      "stock": 5,
+      "company": "SM Entertainment"
+    },
+    {
+      "id": 18,
+      "title": "Flight Log: Departure",
+      "artist": "GOT7",
+      "img":"",
+      "price": 3200,
+      "stock": 6,
+      "company": "JYP Entertainment"
+    },
+    {
+      "id": 19,
+      "title": "Fancy You",
+      "artist": "TWICE",
+      "img":"",
+      "price": 3500,
+      "stock": 7,
+      "company": "JYP Entertainment"
+    },
+    {
+      "id": 20,
+      "title": "Answer",
+      "artist": "BTS",
+      "img":"",
+      "price": 3800,
+      "stock": 4,
+      "company": "Big Hit Entertainment"
+    },
+    {
+      "id": 10,
+      "title": "In Life",
+      "artist": "Stray Kids",
+      "img":"",
+      "price": 3300,
+      "stock": 10,
+      "company": "JYP Entertainment"
+    },
+    {
+      "id": 15,
+      "title": "Treasure Epilogue: Action to Answer",
+      "artist": "ATEEZ",
+      "img":"",
+      "price": 3500,
+      "stock": 3,
+      "company": "KQ Entertainment"
+    },
+    {
+      "id": 21,
+      "title": "Border: Carnival",
+      "artist": "ENHYPEN",
+      "img":"",
+      "price": 3200,
+      "stock": 5,
+      "company": "Belift Lab"
+    },
+    {
+      "id": 22,
+      "title": "The Chaos Chapter: FREEZE",
+      "artist": "TXT",
+      "img":"",
+      "price": 3300,
+      "stock": 8,
+      "company": "Big Hit Music"
+    },
+    {
+      "id": 23,
+      "title": "Hope World",
+      "artist": "J-Hope",
+      "img":"",
+      "price": 2900,
+      "stock": 6,
+      "company": "Big Hit Entertainment"
+    },
+    {
+      "id": 24,
+      "title": "Binary Code",
+      "artist": "ONEUS",
+      "img":"",
+      "price": 2800,
+      "stock": 7,
+      "company": "RBW Entertainment"
+    },
+    {
+      "id": 25,
+      "title": "Magic Man",
+      "artist": "Jackson Wang",
+      "img":"",
+      "price": 2900,
+      "stock": 13,
+      "company": "Team Wang"
+    }
+  ]
+}
