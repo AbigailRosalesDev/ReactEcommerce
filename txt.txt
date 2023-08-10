@@ -1,0 +1,21 @@
+  const [input, setInput] = React.useState('')
+  const handleInputChange = (e) => setInput(e.target.value)
+  const inputStyling = {
+    display: 'flex',
+    justifyContent: 'flex-end',
+    flexWrap: 'wrap',
+    marginRight: '4vh',
+    alignContent:'center'
+  }
+const filteredProducts=()=>{
+  items.filter((item) =>
+      item.title.toLowerCase().includes(input.toLowerCase())
+    );
+    setFilteredItems(filtered);
+  }, [items];
+          <div style={inputStyling}>
+          <SearchIcon />
+          <input type="text" placeholder='Buscar producto' value={input} onChange={handleInputChange} />
+
+        </div>
+       
