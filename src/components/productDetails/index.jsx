@@ -11,11 +11,16 @@ const ProductDetailConteiner = ({ data, addToCart }) => {
       justifyContent:'center'
     }}>
       <img src={data?.imageURL} alt={data?.title} style={{
-        maxWidth:500
+        maxWidth:500,
+        borderRadius:'8%'
       }} />
       <div style={{
         flexDirection:'column',
-        display:'block'
+        padding:'20vh',
+        margin:'3vh',
+        backgroundColor:'#F9F8FD',
+        maxWidth:500,
+        borderRadius:'8%'
 
       }}>
         <h2>{data?.title}</h2>

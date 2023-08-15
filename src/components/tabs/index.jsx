@@ -13,13 +13,16 @@ const TabsMenu = ({ current, items }) => {
   };
   
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%',
+    backgroundColor:'#dfd3e1',
+    textColor:'white'}}>
       <Tabs
         value={current}
         onChange={handleChange}
-        textColor="secondary"
-        indicatorColor="secondary"
+        textColor="wsecondary"
+        indicatorColor="white"
         aria-label="secondary tabs example"
+
       >
         {
           items.map((item, index) => <Tab key={item.id + index} label={item.title} value={item.id} />)

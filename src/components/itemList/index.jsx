@@ -1,5 +1,6 @@
 import React from 'react'
 import Item from '../Card'
+import HourglassFullTwoToneIcon from '@mui/icons-material/HourglassFullTwoTone';
 
 const containerStyle = {
     display: 'flex',
@@ -14,7 +15,13 @@ const ItemList = ({ items, loading }) => {
         <div style={containerStyle}>
             {
                 Boolean(loading) ?
-                    <p>Cargando...</p>
+                    <div style={{
+                        justifyContent:'center',
+                        alignContent:'center'
+                    }}>
+                        <HourglassFullTwoToneIcon sx={{maxWidth:500}}/>
+                        <h3>Cargando...</h3>
+                        </div>
                     :
                     items.map((item, index) => <Item key={item.title + index} data={item} />)
             }

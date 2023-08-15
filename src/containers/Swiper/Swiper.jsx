@@ -30,11 +30,13 @@ const Carrusel = () => {
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
-
+        style={{
+          maxHeight:1200
+        }}
       >
         <SwiperSlide><img src={images.img0} alt="" className='swiper-slide img ' /></SwiperSlide>
         <SwiperSlide><img src={images.img1} alt="" className='swiper-slide img ' /></SwiperSlide>
-        <SwiperSlide><img src={images.img2} alt="" className='swiper-slide img ' />op 2</SwiperSlide>
+        <SwiperSlide><img src={images.img2} alt="" className='swiper-slide img ' /></SwiperSlide>
         <SwiperSlide><img src={images.img3} alt="" className='swiper-slide img ' /></SwiperSlide>
         <SwiperSlide><img src={images.img4} alt="" className='swiper-slide img ' /></SwiperSlide>
 
