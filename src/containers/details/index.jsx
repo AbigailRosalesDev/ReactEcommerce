@@ -1,11 +1,10 @@
 import React from 'react'
-import { getProduct } from '../../logic/connInfo/Conexion'
 import { useParams } from 'react-router-dom';
 import ProductDetailConteiner from '../../components/productDetails';
 import { AppContext } from '../../components/context/Context';
 import { doc, getDoc, getFirestore } from 'firebase/firestore';
 
-const ItemDetails = (image, title, price, description) => {
+const ItemDetails = () => {
   
   const [data, setData] = React.useState();
   const { id } = useParams();

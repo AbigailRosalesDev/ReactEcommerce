@@ -13,23 +13,9 @@ const CATEGORIES = [
   { id: "photocards", title: "Photocards" },
 ];
 
-/*Look up the categories and connect it to the array */
-const searchCategory = (id) => {
-  switch (id) {
-    case 'album':
-      return 'album de musica';
-    case 'book':
-      return 'libros';
-    case 'KP':
-      return 'K-pop';
-    default:
-      return 'Cuadros';
-
-  }
-}
 /*Styling */
 const ContainerStyle = {
-  backgroundColor: ' #dee3ed',
+  backgroundColor: 'white',
 
 }
 
@@ -49,23 +35,7 @@ const ItemContainer = () => {
       navigate('/products/all');
     }
   }, [category, navigate])
-  /*Getting the products from the conn, then put the loading and finishing with the information about products that I want to see */
-  /*React.useEffect(() => {
-   setLoading(true)
-   getProducts(searchCategory(category))
-     .then(res => res.json())
-     .then(res => {
-       const data = res.results?.map((elemento) => ({
-         id: elemento.id,
-         title: elemento.title,
-         price: elemento.price,
-         image: elemento.thumbnail,
-         stock:elemento.available_quantity
-       }))
-       setItems(data)
-     })
-     .finally(() => setLoading(false))
- }, [category])*/
+
   React.useEffect(() => {
 
     setLoading(true);
@@ -90,7 +60,6 @@ const ItemContainer = () => {
         })
     }
   }, [category])
-
 
 
   return (

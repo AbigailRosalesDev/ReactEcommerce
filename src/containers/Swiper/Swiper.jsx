@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import images from '../../assets/images';
 
- const Carrusel= () => {
+const Carrusel = () => {
   return (
     <>
       <Swiper
@@ -30,14 +30,14 @@ import images from '../../assets/images';
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
-        box-sizing= 'border-box'
+
       >
-        <SwiperSlide><img src={images.img0} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={images.img1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={images.img2} alt="" />op 2</SwiperSlide>
-        <SwiperSlide><img src={images.img3} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={images.img4} alt="" /></SwiperSlide>
-   
+        <SwiperSlide><img src={images.img0} alt="" className='swiper-slide img ' /></SwiperSlide>
+        <SwiperSlide><img src={images.img1} alt="" className='swiper-slide img ' /></SwiperSlide>
+        <SwiperSlide><img src={images.img2} alt="" className='swiper-slide img ' />op 2</SwiperSlide>
+        <SwiperSlide><img src={images.img3} alt="" className='swiper-slide img ' /></SwiperSlide>
+        <SwiperSlide><img src={images.img4} alt="" className='swiper-slide img ' /></SwiperSlide>
+
       </Swiper>
     </>
   );

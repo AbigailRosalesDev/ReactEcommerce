@@ -38,7 +38,7 @@ const ItemCount = ({ stock, addToCart }) => {
 
           <>
             <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'row', alignContent: 'center' }} >
-              <button onClick={handleSubstract}>-</button>
+              <button onClick={handleSubstract}style={{justifyContent: 'center', flexDirection: 'row', alignContent: 'center', boxSizing:'content-box'}}>-</button>
               <div>
                 <p>{counter} </p>
               </div>

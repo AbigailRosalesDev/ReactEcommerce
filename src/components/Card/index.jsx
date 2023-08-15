@@ -24,7 +24,7 @@ const  Item = ({ data }) => {
     }
     
     return (
-        <Card sx={{ maxWidth: 300, margin: '5px',  textDecoration: 'none'}}>
+        <Card sx={{ maxWidth: 300, margin: '5px',  textDecoration: 'none', backgroundColor:'#F4E2FF', maxHeight:500}}>
        <Link to={'/product/'+ id} style={{ textDecoration: 'none'}}>
             <CardActionArea>
                 <CardMedia
